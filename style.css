@@ -6,6 +6,7 @@
     --primarycolor: #2000d4;
 }
 body{
+    padding: 5px;
     font-family: 'Georama';
  }
 
@@ -24,15 +25,19 @@ body{
 .link-primary{
   color: #ffffff;  
   background-color: var(--primarycolor) ;
-
-border-radius: 0.5 rem;
+  /* border */
+ border-radius: 0.5rem;
 }
 .link-secondary{
     color: var(--primarycolor);
-border:1px solid var ;
+    /* round border */
+border:1px solid var(--primarycolor) ; 
 border-radius: 0.5rem;
+
 }
+
 hr{
     margin: 2rem 0rem;
 }
+
 
