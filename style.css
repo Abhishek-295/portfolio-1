@@ -3,7 +3,7 @@
 
 /* color storing */
 :root{
-    --primarycolor: #2000d4;
+    --primarycolor: #7802ff;
 }
 body{
     padding: 5px;
@@ -21,6 +21,7 @@ body{
 .links{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    text-align: right;
 }
 .link-primary{
   color: #ffffff;  
@@ -39,5 +40,39 @@ border-radius: 0.5rem;
 hr{
     margin: 2rem 0rem;
 }
+/* list */
+.list-non-bullet{
+    list-style: none;
+}
+/* reversed in html */
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* navbar */
+.navigation{
+color: rgb(255, 255, 255);
+background-color: var(--primarycolor);
+padding: 0.5rem 0.5rem ;
+}
+
+.navigation .link{
+  color: white; 
+
+}
+.navigation .nav-pills{-
+text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+/* some probelm in nav align right */
+
+
+
+
+
 
 
