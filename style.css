@@ -4,10 +4,15 @@
 /* color storing */
 :root{
     --primarycolor: #7802ff;
+    --secondarycolor: aquamarine;
+    --darkgray: rgb(114, 114, 114);
+    --offwhite: rgb(202, 202, 202);
 }
 body{
-    padding: 5px;
+    padding: 0.5px;
     font-family: 'Georama';
+    margin: 0px;
+   
  }
 
 /* containers */
@@ -55,24 +60,63 @@ hr{
 color: rgb(255, 255, 255);
 background-color: var(--primarycolor);
 padding: 0.5rem 0.5rem ;
+border-bottom-left-radius: 1rem;
 }
 
 .navigation .link{
   color: white; 
 
 }
-.navigation .nav-pills{-
+.navigation .nav-pills{
 text-align: right;
 }
 
 .navigation .nav-brand{
     font-weight: bold;
 }
-/* some probelm in nav align right */
+.link-active{
+    font-weight: bold;
+}
 
+/* header */
 
+.hero .hero-img{
+    max-width: 150 px;
+    margin: auto;
+    max-height: 250px; 
+    display: block;
+}
 
+ .hero .hero-heading{
+    padding-top:rem;
+    color: var(--darkgray);
+    text-align: center;
+  
+}
 
+.hero .hero-heading .heading-inverted{
+    color: aquamarine;
+}
 
+/* section */
+.section{
+    padding: 2rem;
+}
+.section h1{
+text-align: center;
+}
+.ow{
+    background-color: var(--offwhite);
+}
+.container-centre{
+    text-align: center;
+}
 
-
+/* footer */
+.footer{
+    background-color: var(--primarycolor);
+padding: 2rem 1rem;
+text-align: center;
+color: white;
+padding-inline-start: none;
+}
