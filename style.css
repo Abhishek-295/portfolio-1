@@ -14,6 +14,11 @@ body{
     margin: 0px;
    
  }
+ /* spaces to put margin between projects */
+.padding-p {
+  padding-top: 3rem;
+}
+ 
 
 /* containers */
 .container{
@@ -89,7 +94,10 @@ text-align: right;
 }
 
 /* header */
-
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
 .hero .hero-img{
     max-width: 150 px;
     margin: auto;
